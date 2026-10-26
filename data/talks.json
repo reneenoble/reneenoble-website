@@ -1,0 +1,273 @@
+[
+  {
+    "slug": "copilot-sdk-dev-experience",
+    "title": "Build Your Own Dev Experience Upgrades with GitHub Copilot SDK",
+    "event": "Microsoft Reactor",
+    "year": 2026,
+    "description": "A livestream build of an AI-powered GitHub issue complexity analyser using the GitHub Copilot SDK.",
+    "tags": [
+      "GitHub Copilot",
+      "SDK",
+      "Python",
+      "Developer Tools"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=7VrPUZgMrjY",
+    "slidesUrl": null,
+    "repoUrl": "https://github.com/reneenoble/copilot-sdk-github-issue-analyser",
+    "featured": true
+  },
+  {
+    "slug": "pycon-au-2025-fuzzy-matching",
+    "detailUrl": "/talks/pycon-au-2025-fuzzy-matching.html",
+    "title": "What's in a Name? Fuzzy Matching Techniques for Proper Nouns",
+    "event": "PyCon AU",
+    "year": 2025,
+    "description": "Techniques for matching names and proper nouns in messy real-world data.",
+    "tags": [
+      "Python",
+      "Data",
+      "NLP"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-AQBJTt1qR4",
+    "slidesUrl": null,
+    "repoUrl": "https://github.com/reneenoble/proper-noun-matching",
+    "blogUrl": "https://dev.to/azure/whats-in-a-name-fuzzy-matching-for-real-world-data-5b5o",
+    "featured": true
+  },
+  {
+    "slug": "pycon-au-2025-who-dunnit",
+    "detailUrl": "/talks/pycon-au-2025-who-dunnit.html",
+    "title": "Who_Dunnit.xlsx: Teaching Python through Data Investigation",
+    "event": "PyCon AU",
+    "year": 2025,
+    "description": "Teaching Python through a murder mystery built around data investigation.",
+    "tags": [
+      "Python",
+      "Education",
+      "Data Science"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=qaGbwXJXf8E",
+    "slidesUrl": null,
+    "repoUrl": "https://github.com/reneenoble/python-mystery-solver",
+    "featured": true
+  },
+  {
+    "slug": "pycon-au-2024",
+    "detailUrl": "/talks/pycon-au-2024.html",
+    "title": "How Smart is AI? Real projects to build real understanding",
+    "event": "PyCon AU",
+    "year": 2024,
+    "description": "Practical projects for testing what AI can and cannot do.",
+    "tags": [
+      "Python",
+      "AI",
+      "Education"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=jDul0lMK0bY",
+    "slidesUrl": null,
+    "repoUrl": "https://github.com/reneenoble/ai-rag-for-education",
+    "featured": true
+  },
+  {
+    "slug": "pycon-au-2023",
+    "detailUrl": "/talks/pycon-au-2023.html",
+    "title": "Git Yourself a Leg Up for Student Projects",
+    "event": "PyCon AU",
+    "year": 2023,
+    "description": "How students can use Git and GitHub to level up their project work and collaboration skills.",
+    "tags": [
+      "Git",
+      "GitHub",
+      "Education"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=WCPmCskuKrg",
+    "slidesUrl": null,
+    "repoUrl": "https://github.com/reneenoble/project-web-app",
+    "blogUrl": "https://techcommunity.microsoft.com/blog/educatordeveloperblog/git-yourself-a-leg-up---github-tools-for-teams-and-teaching/3918034"
+  },
+  {
+    "slug": "little-learns",
+    "title": "Little Learns",
+    "event": "Microsoft Reactor",
+    "year": 2022,
+    "description": "Standalone learn-with-me sessions on Power Apps, Azure Functions and Cognitive Services.",
+    "tags": [
+      "Azure",
+      "Power Apps",
+      "Education"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=LplT-s3kMvE",
+    "slidesUrl": null,
+    "repoUrl": null
+  },
+  {
+    "slug": "iwd-2022-fanning-flames-breaking-biases",
+    "title": "Fanning Flames and Breaking Biases: IWD Fireside Chat",
+    "event": "Microsoft Reactor & Tech Inclusion",
+    "year": 2022,
+    "description": "An International Women's Day discussion about being in the gender minority in tech, how workplace culture shapes careers, and practical ways everyone can help build more inclusive teams.",
+    "tags": [
+      "Diversity",
+      "Women in Tech",
+      "Leadership",
+      "Panel"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=sGY0MMdg5vo",
+    "slidesUrl": null,
+    "repoUrl": null
+  },
+  {
+    "slug": "pycon-au-2020",
+    "title": "Outbreak Outreach: How COVID Broke our Program for the Better",
+    "event": "PyCon AU (Education Track)",
+    "year": 2020,
+    "description": "How the pandemic transformed our education programs and the lessons learned.",
+    "tags": [
+      "Education",
+      "Community"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=9haN9a-1YT8",
+    "slidesUrl": null,
+    "repoUrl": null
+  },
+  {
+    "slug": "pycon-au-2019",
+    "title": "Concept to Classroom: Creating Fun Differentiated Programming Projects",
+    "event": "PyCon AU",
+    "year": 2019,
+    "description": "The process of designing programming projects that meet learners where they are.",
+    "tags": [
+      "Python",
+      "Education"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=M85YHRr5Ngg",
+    "eventUrl": "https://2019.pycon-au.org/talks/concept-to-classroom-creating-fun-differentiated-programming-projects",
+    "slidesUrl": null,
+    "repoUrl": null,
+    "blogUrl": "https://medium.com/groklearning/every-concept-counts-creating-appropriately-leveled-python-projects-8bb0bd4a19eb"
+  },
+  {
+    "slug": "pycon-au-2018",
+    "title": "Scissors Paper Rock Your Classroom With Differentiated Learning",
+    "event": "PyCon AU",
+    "year": 2018,
+    "description": "How to create programming projects with entry points for learners at different levels.",
+    "tags": [
+      "Python",
+      "Education"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=4Y3PuTTH5ZQ",
+    "slidesUrl": null,
+    "repoUrl": null,
+    "blogUrl": "https://medium.com/groklearning/scissors-paper-rock-your-classroom-with-differentiated-projects-bf5aa2cd4b36"
+  },
+  {
+    "slug": "hopper-down-under-2019",
+    "title": "Creating the Girls Club: Community-Based Learning for Plugging the Leaky Pipeline of Women in Tech",
+    "event": "Hopper Down Under",
+    "year": 2019,
+    "description": "How programming communities can better support women in technology.",
+    "tags": [
+      "Education",
+      "Diversity",
+      "Community"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eOZs0kR8NNY",
+    "slidesUrl": null,
+    "repoUrl": null,
+    "blogUrl": "https://medium.com/groklearning/girls-programming-network-challenge-accepted-3ad12f9f20aa"
+  },
+  {
+    "slug": "hopper-down-under-2018",
+    "title": "Concept to Classroom: Creating Fun Differentiated Programming Projects",
+    "event": "Hopper Down Under",
+    "year": 2018,
+    "description": "The process of designing programming projects that meet learners where they are.",
+    "tags": [
+      "Education",
+      "Curriculum"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Vcd31jFjsP4",
+    "slidesUrl": null,
+    "repoUrl": null,
+    "blogUrl": "https://medium.com/groklearning/every-concept-counts-creating-appropriately-leveled-python-projects-8bb0bd4a19eb"
+  },
+  {
+    "slug": "pi-day-2024",
+    "title": "Data Science: The Bear* Necessities",
+    "event": "Python Data Science Day",
+    "year": 2024,
+    "description": "Exploring data science with Australian koala data using Python, Pandas, and Matplotlib.",
+    "tags": [
+      "Python",
+      "Data Science",
+      "Matplotlib",
+      "Pandas"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=NCdzng61fI8",
+    "slidesUrl": null,
+    "repoUrl": "https://github.com/reneenoble/data-science-bear-necessities"
+  },
+  {
+    "slug": "code-to-cloud",
+    "title": "Python Web Apps 101",
+    "event": "Microsoft Reactor",
+    "year": 2024,
+    "description": "Building and deploying a web app with Python Flask and Azure App Service.",
+    "tags": [
+      "Python",
+      "Azure",
+      "Web Development",
+      "Flask"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=V_69Q0ZiPAI",
+    "slidesUrl": "https://aka.ms/python-web-apps-101",
+    "repoUrl": "https://github.com/reneenoble/code-to-cloud",
+    "blogUrl": "https://dev.to/reneenoble/create-and-deploy-a-web-app-with-python-and-azure-a-video-tutorial-3mjj"
+  },
+  {
+    "slug": "my-stem-story",
+    "title": "#MySTEMstory",
+    "event": "EWB Australia, UTS & Techgirls",
+    "year": 2020,
+    "description": "A National Science Week story about finding a place in technology and encouraging girls to see themselves in coding and STEM.",
+    "tags": [
+      "STEM",
+      "Education",
+      "Personal"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GXEKmiPwE8M",
+    "slidesUrl": null,
+    "repoUrl": null
+  },
+  {
+    "slug": "edugrowth-panel",
+    "title": "K12 EdTech Discussion: Practical STEM Online and in the Classroom",
+    "event": "EduGrowth",
+    "year": 2020,
+    "description": "A conversation with Associate Professor Joanna Jamie about connecting under-represented students with practical STEM learning online and in the classroom.",
+    "tags": [
+      "Education",
+      "EdTech",
+      "Panel"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=zjMorr8WQfE",
+    "slidesUrl": null,
+    "repoUrl": null
+  },
+  {
+    "slug": "azure-enablement-python",
+    "title": "Build Intelligent Apps with Python",
+    "event": "Azure Enablement Show",
+    "year": 2024,
+    "description": "Exploring how to build intelligent applications using Python and Azure, covering AI, data, and cloud deployment.",
+    "tags": [
+      "Python",
+      "Azure",
+      "AI"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=gJJ7hae3BVE",
+    "slidesUrl": null,
+    "repoUrl": null
+  }
+]

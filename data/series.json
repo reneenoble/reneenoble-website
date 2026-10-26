@@ -1,0 +1,44 @@
+[
+  {
+    "title": "In the Code Garden",
+    "url": "/series/code-garden.html",
+    "date": "2022-12",
+    "meta": "20+ episodes",
+    "description": "A friendly live-coding series for Python beginners covering fundamentals, data structures, visualisation, web development, Azure, and GitHub.",
+    "tags": [
+      "Python",
+      "Education",
+      "Web Development"
+    ],
+    "image": "/assets/img/code-garden-banner.png",
+    "imageFit": "contain"
+  },
+  {
+    "title": "What in the World-le",
+    "url": "/series/what-in-the-worldle.html",
+    "date": "2022-03",
+    "meta": "4 episodes",
+    "description": "Exploring word games with Python: build a Wordle-style game, analyse the data for the best first word, and create an AI solver.",
+    "tags": [
+      "Python",
+      "Data",
+      "Games"
+    ],
+    "image": "/assets/img/what-in-the-worldle.webp",
+    "imageFit": "contain"
+  },
+  {
+    "title": "Web App Essentials (Code to Cloud)",
+    "url": "/series/web-app-essentials.html",
+    "date": "2022-02",
+    "meta": "4 episodes",
+    "description": "Build and deploy a custom event invitation app with Python, Flask, and Azure, from first line of code through to deployment.",
+    "tags": [
+      "Python",
+      "Flask",
+      "Azure",
+      "Web Development"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=c9i2kE-ksms"
+  }
+]

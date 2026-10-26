@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education Portfolio | Renee Noble</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Educational content portfolio showcasing curriculum development for Girls' Programming Network, Grok Learning, and ConnectEd Code.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+  <style>
+    .edu-section { padding: var(--space-20) 0; }
+    .edu-section:nth-child(even) { background: var(--primary-soft); }
+    .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-12); align-items: center; }
+    .edu-grid--reverse { direction: rtl; }
+    .edu-grid--reverse > * { direction: ltr; }
+    .edu-grid img { width: 100%; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); }
+    .edu-grid .video-embed { margin: 0; }
+    .edu-grid + .edu-grid { margin-top: var(--space-16); }
+    .edu-content h3 { color: var(--primary); margin-bottom: var(--space-4); }
+    .edu-content p { margin-bottom: var(--space-4); }
+    .edu-intro { max-width: 800px; margin: 0 auto var(--space-12); }
+    .org-header { display: flex; align-items: center; gap: var(--space-4); margin-bottom: var(--space-12); padding-bottom: var(--space-4); border-bottom: 2px solid var(--primary); }
+    .org-header img { height: 60px; width: auto; }
+    .org-header h2 { margin: 0; }
+    .awards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-8); }
+    .award-card { display: flex; gap: var(--space-4); align-items: flex-start; }
+    .award-card img { width: 120px; height: 120px; object-fit: cover; border-radius: var(--radius-md); flex-shrink: 0; }
+    .award-card h4 { margin: 0 0 var(--space-2); color: var(--primary); }
+    .award-card p { margin: 0; font-size: var(--text-sm); color: var(--muted); }
+    .resource-links { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-4); }
+    @media (max-width: 768px) {
+      .edu-section { padding: var(--space-12) 0; }
+      .edu-grid { grid-template-columns: 1fr; gap: var(--space-6); }
+      .edu-grid + .edu-grid { margin-top: var(--space-10); }
+      .edu-grid--reverse { direction: ltr; }
+      .awards-grid { grid-template-columns: 1fr; }
+      .award-card { flex-direction: column; align-items: center; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-header section--garden">
+      <div class="container">
+        <h1 class="page-header__title">Educational Content Portfolio</h1>
+        <p class="page-header__description">Sample materials from my work in curriculum development and tech education.</p>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section">
+      <div class="container">
+        <div class="edu-intro">
+          <p>Below are sample examples of my work in content creation used through the Girls' Programming Network, Grok Learning, and ConnectEd Code. These demonstrate my methodology behind differentiated programming projects, curriculum-aligned materials, and engaging hands-on activities.</p>
+          
+          <p>While I always loved the act of teaching, it is the last 8 years that have lead me to become heavily involved in the development of educational content for STEM education. Over this time I have progressed from my early roles such as tutor at the University of Sydney and summer camp tutor, to nationalising the <a href="https://www.girlsprogramming.network" target="_blank">Girls' Programming Network</a> outreach program and working as a Software and Content Developer at Grok Learning. Most recently I started my own business, <a href="https://connectedcode.org" target="_blank">ConnectEd Code</a>, providing tech-education resources, experiences, and consultation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ConnectEd Code Section -->
+    <section class="edu-section">
+      <div class="container">
+        <div class="org-header">
+          <img src="/assets/img/connected-code-logo.png" alt="ConnectEd Code">
+          <h2>ConnectEd Code</h2>
+        </div>
+
+        <!-- Whistling Timer -->
+        <div class="edu-grid mb-12">
+          <div class="edu-content">
+            <h3>Whistling Timer - Kookaberry</h3>
+            <p>This project was designed to give students who are familiar with Python a basic understanding of the Kookaberry and its peripherals. Students build a countdown timer with a decreasing pitch whistle that plays as time runs out.</p>
+            <p>In doing this they gain an understanding of embedded systems programming, encountering concepts such as:</p>
+            <ul>
+              <li>The need for a main loop to continuously run to poll for user inputs</li>
+              <li>Various aspects of timing from sleeping the code to using the internal real time clock</li>
+              <li>Using Kookaberry ports to add a speaker with pulse width modulation</li>
+            </ul>
+          </div>
+          <div>
+            <img src="/assets/img/gpn-workshop-2.jpg" alt="Students working on Kookaberry projects">
+          </div>
+        </div>
+
+        <!-- Music Makers -->
+        <div class="edu-grid edu-grid--reverse mb-12">
+          <div class="edu-content">
+            <h3>Music Makers - Kookaberry</h3>
+            <p>This series of mini-projects was designed for a guest session at the University of Sydney Conservatorium of Music, for pre-service music teacher students. I showed them how to combine the Digital Technologies curriculum with the Music curriculum to create interesting new musical instruments.</p>
+            <p>The pre-service teachers, with no previous coding experience, were guided through coding Kookaberries to play and modulate musical pitch. By the end of the session they had constructed moisture and playdough based xylophones, and even a gravity based musical instrument.</p>
+          </div>
+          <div>
+            <img src="/assets/img/music-makers.jpg" alt="Pre-service music teachers try their hand at playing the playdough xylophone">
+            <p class="text-muted text-sm mt-2">Pre-service music teachers try their hand at playing the playdough xylophone.</p>
+          </div>
+        </div>
+
+        <!-- Python Cheat Sheet -->
+        <div class="edu-grid">
+          <div class="edu-content">
+            <h3>Python Cheat Sheet</h3>
+            <p>A comprehensive cheat sheet covering the Python concepts needed to cover the year 7-10 Australian Digital Technologies curriculum. Designed as a quick reference for both students and teachers.</p>
+          </div>
+          <div>
+            <img src="/assets/img/python-cheatsheet.png" alt="Python Cheat Sheet preview">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Girls' Programming Network Section -->
+    <section class="edu-section">
+      <div class="container">
+        <div class="org-header">
+          <img src="/assets/img/gpn-logo.png" alt="Girls' Programming Network">
+          <h2>Girls' Programming Network</h2>
+        </div>
+
+        <!-- Bop It -->
+        <div class="edu-grid mb-12">
+          <div class="edu-content">
+            <h3>Bop It - BBC micro:bit</h3>
+            <p>This project is our own take on the game/toy Bop It. Implemented using the BBC micro:bit, students have the chance to combine code with creative circuitry to design their own games.</p>
+            <p>The beauty in this project is its extendability, allowing new programmers to feel accomplished in coding the core game and building a basic circuit, while experienced programmers can extend their coding abilities by adding new scoring features, advanced circuitry, and even radio communications for multiplayer options.</p>
+          </div>
+          <div>
+            <img src="/assets/img/gpn-bop-it.jpg" alt="A GPN student's creative circuitry extends their micro:bit Bop It game">
+            <p class="text-muted text-sm mt-2">A GPN student's creative circuitry extends their micro:bit Bop It game.</p>
+          </div>
+        </div>
+
+        <!-- Tic Tac Toe with Video -->
+        <div class="edu-grid edu-grid--reverse mb-12">
+          <div class="edu-content">
+            <h3>Tic Tac Toe - Python</h3>
+            <p>This text-based Python implementation of Tic Tac Toe is a great example of my methodology's ability to differentiate a common idea into many difficulty levels. Ultimately students all make a 2-player Tic Tac Toe game, but do so using different programming concepts depending on level.</p>
+            <p>New programmers solidify variables, if statements and looping. Intermediate programmers extend themselves with lists and functions. Advanced programmers build an AI player and learn about recursion and game trees.</p>
+          </div>
+          <div>
+            <div class="video-embed">
+              <iframe src="https://www.youtube.com/embed/Vcd31jFjsP4" title="Concept to Classroom - Hopper Down Under" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="text-muted text-sm mt-2">Concept to Classroom: Creating Fun Differentiated Programming Projects, Hopper Down Under</p>
+          </div>
+        </div>
+
+        <!-- Scissors Paper Rock with Video -->
+        <div class="edu-grid mb-12">
+          <div class="edu-content">
+            <h3>Scissors Paper Rock - Python</h3>
+            <p>The GPN Scissors Paper Rock project sparked the ideas behind my methodology for creating differentiated content that was easy to learn from and easy to teach. Years on this project has become our flagship project which all new GPN nodes use to get off the ground.</p>
+            <p>This project is conceptually relatable for students and teachers, yet has scope to be implemented and extended in a variety of ways, ensuring an accessible challenge for every child.</p>
+          </div>
+          <div>
+            <div class="video-embed">
+              <iframe src="https://www.youtube.com/embed/4Y3PuTTH5ZQ" title="Scissors Paper Rock Your Classroom - PyCon AU 2018" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="text-muted text-sm mt-2">Scissors Paper Rock Your Classroom With Differentiated Learning, PyCon AU 2018</p>
+          </div>
+        </div>
+
+        <!-- Squishy Circuits -->
+        <div class="edu-grid edu-grid--reverse mb-12">
+          <div class="edu-content">
+            <h3>Squishy Circuits - Unplugged</h3>
+            <p>The Squishy Circuits activity uses hands-on activities to give students an understanding of electronics and circuits as well as the logic gates that make up computer systems.</p>
+            <p>Using the conductive properties of playdough, alongside a battery and LED light, students construct logic gates that can provide the answer to questions given yes or no answers input into the circuits via "switches" made of aluminium foil.</p>
+          </div>
+          <div>
+            <img src="/assets/img/squishy-circuits.jpg" alt="GPN students and their squishy circuit solution">
+            <p class="text-muted text-sm mt-2">GPN students and their squishy circuit solution.</p>
+          </div>
+        </div>
+
+        <!-- Awards Section -->
+        <h3 class="mb-6" style="color: var(--primary);">Educational Success Through Girls' Programming Network</h3>
+        <div class="awards-grid">
+          <div class="award-card">
+            <img src="/assets/img/ict-award.jpg" alt="ICT Educators NSW Award">
+            <div>
+              <h4>Leader of the Year</h4>
+              <p><strong>ICT Educators NSW, 2017</strong></p>
+              <p>GPN founder Nicky Ringland and I received this award for the program's impact on engaging girls in tech.</p>
+            </div>
+          </div>
+          <div class="award-card">
+            <img src="/assets/img/afr-100-women.jpg" alt="AFR 100 Women of Influence">
+            <div>
+              <h4>100 Women of Influence</h4>
+              <p><strong>Australian Financial Review, 2019</strong></p>
+              <p>Listed for my work in engaging girls and women with technology education through GPN leadership.</p>
+            </div>
+          </div>
+          <div class="award-card">
+            <img src="/assets/img/aww-women-future.jpg" alt="Women of the Future">
+            <div>
+              <h4>Women of the Future</h4>
+              <p><strong>Australian Women's Weekly, 2018</strong></p>
+              <p>Listed amongst 9 Women of the Future, recognising women making a difference with future thinking outlook.</p>
+            </div>
+          </div>
+          <div class="award-card">
+            <img src="/assets/img/create-magazine.jpg" alt="Create Magazine">
+            <div>
+              <h4>Emerging Women in Engineering</h4>
+              <p><strong>Create Magazine, 2020</strong></p>
+              <p>Featured among notable young women impacting engineering and making careers more visible for the next generation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grok Learning Section -->
+    <section class="edu-section">
+      <div class="container">
+        <div class="org-header">
+          <img src="/assets/img/grok-logo.png" alt="Grok Learning">
+          <h2>Grok Learning</h2>
+        </div>
+
+        <!-- Image Magic -->
+        <div class="edu-grid mb-12">
+          <div class="edu-content">
+            <h3>Image Magic with Python</h3>
+            <p><em>Hour of Code Course, Free on Grok Learning</em></p>
+            <p>I architected and wrote this course for Hour of Code 2020. It introduces students with basic Python knowledge to the Python Image Library, taking them through inspecting images and individual pixels with code, and making edits to create their own photo filters.</p>
+            <p>The course includes interactive slides, problems, automated marking, and teacher solutions.</p>
+            <div class="resource-links">
+              <a href="https://groklearning.com/csedweek/image-magic/" target="_blank" rel="noopener" class="btn btn--primary">View Free Course on Grok</a>
+            </div>
+          </div>
+          <div>
+            <img src="/assets/img/grok-logo.png" alt="Grok Learning" style="max-width: 300px; margin: 0 auto; display: block; box-shadow: none;">
+          </div>
+        </div>
+
+        <!-- Other Grok Work -->
+        <div class="card">
+          <div class="card__body">
+            <h3>Other Grok Learning Projects</h3>
+            <p class="text-muted mb-4">The vast majority of my work at Grok Learning is behind a pay wall. Other projects included:</p>
+            
+            <div class="grid gap-6 md:grid-cols-2">
+              <div>
+                <h4>NCSS Challenge New Intermediate Stream, 2020</h4>
+                <p class="text-sm">Course architect and project lead for 25 new auto-marked problems aligned to Digital Technologies curriculum for Stage 5 (Year 9).</p>
+              </div>
+              <div>
+                <h4>Web.Comp New Beginners Stream, 2020</h4>
+                <p class="text-sm">Subject matter expert ensuring content aligned with industry best practices. Key author for slide material.</p>
+              </div>
+              <div>
+                <h4>NCSS Challenge New Beginner Stream, 2019</h4>
+                <p class="text-sm">Core contributor to new Python and Blockly streams aligned to Year 7 & 8 Digital Technologies Curriculum.</p>
+              </div>
+              <div>
+                <h4>NCSS Challenge New Newbies Stream, 2018</h4>
+                <p class="text-sm">Designed interactive problems for new Blockly stream aligned to Year 5 & 6 curriculum using "interactive steps".</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section bg-primary" style="color: white;">
+      <div class="container text-center">
+        <h2 style="color: white;">Interested in Educational Collaboration?</h2>
+        <p style="color: rgba(255,255,255,0.9); max-width: 600px; margin: 0 auto var(--space-6);">I'm available for curriculum consultation, workshop development, and teacher professional development.</p>
+        <div class="flex gap-4 justify-center">
+          <a href="https://connectedcode.org" target="_blank" rel="noopener" class="btn" style="background: white; color: var(--primary);">Visit ConnectEd Code</a>
+          <a href="/contact.html" class="btn btn--outline" style="border-color: white; color: white;">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  
+  <script src="/assets/js/partials.js"></script>
+</body>
+</html>

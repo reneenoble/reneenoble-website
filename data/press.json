@@ -1,0 +1,174 @@
+{
+  "awards": [
+    {
+      "title": "Mentor Award",
+      "organisation": "B&T Women Leading Tech Awards",
+      "year": 2026,
+      "description": "Awarded for building mentoring and leadership pathways for girls and women in technology through Girls' Programming Network.",
+      "url": "https://www.bandt.com.au/behold-the-2026-women-leading-tech-awards-winners/#mentor",
+      "image": "/assets/img/wlt-group.png"
+    },
+    {
+      "title": "Best Program for Young Individuals in Security",
+      "organisation": "Australian Women in Security Awards",
+      "year": 2026,
+      "description": "Awarded to GPN Junior for creating opportunities for young people to explore cybersecurity and develop skills, confidence and career pathways.",
+      "url": "https://womeninsecurityawards.com.au/2026-winners-2/#:~:text=WINNER%3A%20GPN%20Junior",
+      "image": "/assets/img/gpn-pipeline.jpg",
+      "imageAlt": "Girls' Programming Network participants and volunteers at a workshop"
+    },
+    {
+      "title": "Champion of Change",
+      "organisation": "Women in Digital",
+      "year": 2023,
+      "description": "Awarded for work supporting women in technology through GPN, Tech Inclusion and coding education.",
+      "url": "https://womenindigital.org/winners-announced-for-the-2023-women-in-digital-awards/#:~:text=Renee%20Noble%20is%20CEO%20of%20Tech%20Inclusion",
+      "image": "/assets/img/WID-winner.png",
+      "imageAlt": "Renee Noble holding the 2023 Women in Digital Champion of Change award"
+    },
+    {
+      "title": "Most Innovative Educator in Cybersecurity",
+      "organisation": "Australian Women in Security Awards",
+      "year": 2023,
+      "description": "Awarded to Girls' Programming Network for its innovative and inclusive approach to cybersecurity education.",
+      "url": "https://womeninsecurityawards.com.au/2023-winners/#:~:text=WINNER%3A%20Girls%20Programming%20Network%20%28GPN%29",
+      "image": "/assets/img/education-workshop.jpg",
+      "imageAlt": "Students and educators participating in a programming workshop"
+    },
+    {
+      "title": "Best Education Program",
+      "organisation": "Australian Women in Security Awards",
+      "year": 2020,
+      "description": "Awarded to Girls' Programming Network for its security education workshops.",
+      "url": null,
+      "image": "/assets/img/gpn-pipeline.jpg"
+    },
+    {
+      "title": "100 Women of Influence",
+      "organisation": "Australian Financial Review",
+      "year": 2019,
+      "description": "Named in AFR's annual list recognising women making significant contributions across various fields.",
+      "url": null,
+      "image": "/assets/img/afr-100-women.jpg"
+    },
+    {
+      "title": "Women of the Future",
+      "organisation": "Australian Women's Weekly",
+      "year": 2018,
+      "description": "Featured as one of Australia's emerging women leaders.",
+      "url": null,
+      "image": "/assets/img/aww-women-future.jpg"
+    },
+    {
+      "title": "ICT Educator Leader of the Year",
+      "organisation": "ICT Educators NSW",
+      "year": 2017,
+      "description": "Recognised for leadership in computing education in New South Wales.",
+      "url": null,
+      "image": "/assets/img/ict-award.jpg"
+    },
+    {
+      "title": "Emerging Women in Engineering",
+      "organisation": "Create Magazine",
+      "year": 2020,
+      "description": "Featured in Create Magazine's list of emerging women in engineering and technology.",
+      "url": "https://createdigital.org.au/women-engineer/renee-noble/",
+      "image": "/assets/img/create-magazine.jpg"
+    },
+    {
+      "title": "Best Security Community Initiative",
+      "organisation": "Australian Women in Security Awards",
+      "year": 2019,
+      "description": "Awarded to Girls' Programming Network for its community-led security education work.",
+      "url": null,
+      "image": "/assets/img/gpn-workshop-2.jpg"
+    }
+  ],
+  "media": [
+    {
+      "title": "Renee Noble stresses importance of mentors after Women Leading Tech Award win",
+      "outlet": "B&T",
+      "type": "Interview",
+      "date": "2026",
+      "description": "A conversation about the practical role mentors play in technology, early access to programming and building supported leadership pathways through GPN.",
+      "url": "https://www.bandt.com.au/absolutely-critical-renee-noble-stresses-importance-of-mentors-after-women-leading-tech-award-win/"
+    },
+    {
+      "title": "Q&A with Renee Noble, Champion of Change",
+      "outlet": "Women in Digital",
+      "type": "Interview",
+      "date": "2024",
+      "description": "A conversation about building opportunities through GPN, establishing Tech Inclusion and ConnectEd Code, and making space for other people to lead.",
+      "url": "https://womenindigital.org/2023-women-in-digital-awards-winner-series-qa-with-renee-noble-champion-of-change/"
+    },
+    {
+      "title": "2023 Champion of Change winner reel",
+      "outlet": "Women in Digital",
+      "type": "Video",
+      "date": "2023",
+      "description": "Women in Digital's winner reel recognising the work behind Tech Inclusion, ConnectEd Code and the growth of Girls' Programming Network.",
+      "url": "https://www.linkedin.com/posts/digital-championofchange-ugcPost-7134768469668962304-VODG/",
+      "image": "/assets/img/champ-change-reel.png",
+      "imageAlt": "Renee Noble holding the 2023 Women in Digital Champion of Change award"
+    },
+    {
+      "title": "Soft Skills Needed in Tech",
+      "outlet": "Education Today",
+      "type": "Article",
+      "date": "2023",
+      "description": "An interview about the technical and people skills needed in technology, workplace conditions for women, and GPN's approach to coding education and mentoring.",
+      "url": "https://www.educationtoday.com.au/news-detail/Soft-Skills-Needed-i-6108"
+    },
+    {
+      "title": "Renee Noble",
+      "outlet": "create digital",
+      "type": "Profile",
+      "date": "2020",
+      "description": "A profile covering engineering, coding education, the growth of Girls' Programming Network and practical ways educators and employers can support more women in technology.",
+      "url": "https://createdigital.org.au/women-engineer/renee-noble/"
+    },
+    {
+      "title": "This year’s most influential women in STEM are champions of reinvention",
+      "outlet": "create digital",
+      "type": "Article",
+      "date": "2019-09-27",
+      "description": "Coverage of Renee Noble’s recognition as an Australian Financial Review 100 Women of Influence finalist and her work leading Girls’ Programming Network.",
+      "url": "https://createdigital.org.au/years-most-influential-women-in-engineering-champions-reinvention/",
+      "image": "/assets/img/afr-100-women.jpg"
+    },
+    {
+      "title": "Women in STEM, Unconscious Bias and the Girls’ Programming Network",
+      "outlet": "Equity Talks 180",
+      "type": "Podcast",
+      "date": "2019",
+      "description": "Discussion on women in STEM, the Girls' Programming Network, and addressing unconscious bias in tech.",
+      "url": "https://open.spotify.com/episode/5T20Xs8faE7MjAXpmxDQqN",
+      "image": "/assets/img/podcast-banner.jpg",
+      "imageFit": "contain"
+    },
+    {
+      "title": "The Power of Data",
+      "outlet": "InTransition Podcast Episode 118",
+      "type": "Podcast",
+      "date": "2019",
+      "description": "A discussion about how data and technology affect organisations and the people they serve.",
+      "url": "https://www.ivoox.com/en/intransition-118-renee-noble-on-the-power-of-audios-mp3_rf_19606466_1.html"
+    },
+    {
+      "title": "#MySTEMstory",
+      "outlet": "Engineers Without Borders & UTS",
+      "type": "Video",
+      "date": "2019",
+      "description": "How I got started in STEM and technology.",
+      "url": null
+    },
+    {
+      "title": "Thought Leadership Panel",
+      "outlet": "Edugrowth",
+      "type": "Panel",
+      "date": "2019",
+      "description": "Panel discussion on education technology and innovation.",
+      "url": null
+    }
+  ]
+}

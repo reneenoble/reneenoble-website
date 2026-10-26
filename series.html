@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Series | Renee Noble</title>
+  <meta name="description" content="Educational video series by Renee Noble including In the Code Garden and Web App Essentials.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-header section--garden">
+      <div class="container">
+        <h1 class="page-header__title">Video Series</h1>
+        <p class="page-header__description">Educational video series on Python programming, web development, and more.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid gap-8 md:grid-cols-2" id="series-grid">
+          <!-- In the Code Garden -->
+          <div class="card card--media">
+            <a href="https://www.youtube.com/playlist?list=PLmsFUfdnGr3ybQRX1VAYdMLJa2Tv2d7gT" target="_blank" rel="noopener" class="card__thumbnail">
+              <img src="https://img.youtube.com/vi/C8e3k9KQWCA/hqdefault.jpg" alt="In the Code Garden series" loading="lazy">
+              <span class="card__play-icon">▶</span>
+            </a>
+            <div class="card__body">
+              <span class="tag tag--leaf">Beginner Friendly</span>
+              <h3 class="card__title mt-4"><a href="/series/code-garden.html">In the Code Garden</a></h3>
+              <p class="card__excerpt">A friendly livestream series for Python beginners. Learn programming fundamentals, data structures, web development, and more in a supportive environment.</p>
+              <p class="card__meta">20+ episodes · 2022</p>
+              <div class="flex gap-3 mt-4">
+                <a href="/series/code-garden.html" class="btn btn--outline">View Episodes</a>
+                <a href="https://www.youtube.com/playlist?list=PLmsFUfdnGr3ybQRX1VAYdMLJa2Tv2d7gT" target="_blank" rel="noopener" class="btn btn--ghost">YouTube →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web App Essentials / Code to Cloud -->
+          <div class="card card--media">
+            <a href="https://www.youtube.com/watch?v=c9i2kE-ksms" target="_blank" rel="noopener" class="card__thumbnail">
+              <img src="https://img.youtube.com/vi/c9i2kE-ksms/hqdefault.jpg" alt="Code to Cloud episode 1: Web App Essentials Build-Along" loading="lazy">
+              <span class="card__play-icon">▶</span>
+            </a>
+            <div class="card__body">
+              <span class="tag tag--secondary">Web Development</span>
+              <h3 class="card__title mt-4"><a href="/series/web-app-essentials.html">Web App Essentials (Code to Cloud)</a></h3>
+              <p class="card__excerpt">Learn to build and deploy web applications with Python Flask and Azure. Create a custom event invitation app from code to deployment.</p>
+              <p class="card__meta">4 episodes · February 2022</p>
+              <a href="/series/web-app-essentials.html" class="btn btn--outline mt-4">View Episodes</a>
+            </div>
+          </div>
+
+          <!-- What in the World-le -->
+          <div class="card card--media">
+            <a href="/series/what-in-the-worldle.html" class="card__thumbnail card__thumbnail--contain">
+              <img src="/assets/img/what-in-the-worldle.webp" alt="What in the World-le Python word game series" loading="lazy">
+            </a>
+            <div class="card__body">
+              <span class="tag tag--accent">Python</span>
+              <h3 class="card__title mt-4"><a href="/series/what-in-the-worldle.html">What in the World-le 🟨🟩</a></h3>
+              <p class="card__excerpt">Exploring word games with Python! Build your own Wordle-like game, analyse data for the best first word, and create an AI solver.</p>
+              <p class="card__meta">4 episodes · March 2022</p>
+              <div class="flex flex-wrap gap-3 mt-4">
+                <a href="/series/what-in-the-worldle.html" class="btn btn--primary">View episodes</a>
+                <a href="https://github.com/reneenoble/what-in-the-worldle" target="_blank" rel="noopener" class="btn btn--ghost">View code ↗</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  
+  <script src="/assets/js/partials.js"></script>
+</body>
+</html>

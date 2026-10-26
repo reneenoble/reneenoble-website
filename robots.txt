@@ -1,0 +1,6 @@
+# Renee Noble Personal Website
+
+User-agent: *
+Allow: /
+
+Sitemap: https://reneenoble.com/sitemap.xml

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talks | Renee Noble</title>
+  <meta name="description" content="Talks and workshops by Renee Noble about technology, practical making, education, inclusion and technical communities.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/assets/css/style.css?v=10">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <p class="page-kicker">Speaking</p>
+        <h1 class="page-header__title">Talks &amp; workshops</h1>
+        <p class="page-header__description">I speak about technology, education, inclusion and community, often where they overlap.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-intro">
+          <h2>Browse my talks</h2>
+          <p>Explore recordings from conferences, community events, panels and workshops, or filter them by topic.</p>
+        </div>
+
+        <div class="filter-bar" id="talk-filters" aria-label="Filter talks by theme">
+          <button type="button" class="filter-btn filter-btn--active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter-btn" data-filter="technology" data-tags="Python,AI,Azure,Data,Data Science,NLP,Web Development,Flask,Git,GitHub" aria-pressed="false">Technology & making</button>
+          <button type="button" class="filter-btn" data-filter="education" data-tags="Education,Curriculum" aria-pressed="false">Education & pedagogy</button>
+          <button type="button" class="filter-btn" data-filter="community" data-tags="Community,Diversity" aria-pressed="false">Inclusion & community</button>
+        </div>
+
+        <!-- Talks Grid -->
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" id="talks-grid">
+          <div class="text-center" style="grid-column: 1 / -1; padding: var(--space-8);">
+            <div class="spinner"></div>
+            <p class="text-muted mt-4">Loading talks...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Speaking CTA -->
+    <section class="section bg-primary-soft">
+      <div class="container text-center">
+        <h2>Looking for a speaker?</h2>
+        <p class="hero__subtitle">I'd love to hear about your event. Get in touch to chat about talks, panels, workshops or anything else you have in mind.</p>
+        <a href="/contact.html" class="btn btn--primary btn--lg">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  
+  <script src="/assets/js/partials.js"></script>
+  <script src="/assets/js/render-list.js?v=16"></script>
+  <script>
+    document.addEventListener('partialsLoaded', () => {
+      renderTalks();
+    });
+  </script>
+</body>
+</html>

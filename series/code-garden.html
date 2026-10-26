@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>In the Code Garden | Renee Noble</title>
+  <meta name="description" content="A beginner-friendly programming series with embedded episodes covering Python, data, web development, Azure, GitHub and physical computing.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+  <style>
+    .episode-month { margin-bottom: var(--space-12); }
+    .episode-month > h3 { color: var(--leaf); }
+    .episode-card .video-embed { border-radius: 0; box-shadow: none; }
+    .episode-card .card__body { min-height: 12rem; }
+  </style>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-header section--garden">
+      <div class="container">
+        <h1 class="page-header__title">🌱 In the Code Garden</h1>
+        <p class="page-header__description">Recordings covering Python, data, web development, cloud and open-source tools.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="container--narrow mb-12">
+          <h2>About the Series</h2>
+          <p>In the Code Garden is a live-coding series I created for people learning Python and related technologies. Each set of episodes grows one practical idea over several sessions, with explanations, experiments and the occasional bug worked out in real time.</p>
+
+          <div class="video-embed mt-6">
+            <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLmsFUfdnGr3ybQRX1VAYdMLJa2Tv2d7gT" title="In the Code Garden playlist" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <p class="mt-6">Code is available on <a href="https://github.com/reneenoble/code-garden" target="_blank" rel="noopener">GitHub</a>. Some later recordings sit outside the original <a href="https://www.youtube.com/playlist?list=PLmsFUfdnGr3ybQRX1VAYdMLJa2Tv2d7gT" target="_blank" rel="noopener">YouTube playlist</a>, so the complete set is embedded below.</p>
+        </div>
+
+        <h2 class="mb-8">Episodes</h2>
+
+        <section class="episode-month" aria-labelledby="april-2022">
+          <h3 id="april-2022">April 2022: Playing with Python</h3>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/yJSWbaHulaY" title="Playing with Python episode 1: Variables and inputs" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--leaf">Episode 1</span><h4 class="card__title mt-4">Variables <span class="heading-amp">&amp;</span> inputs</h4><p class="card__excerpt">Use variables and inputs to create simple programs that respond to the person using them.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/ZasSoWRFfr4" title="Playing with Python episode 2: If statements" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--leaf">Episode 2</span><h4 class="card__title mt-4">If statements</h4><p class="card__excerpt">Use if statements to make programs respond differently to different inputs.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/zRGDCSs6918" title="Playing with Python episode 3: Loops" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--leaf">Episode 3</span><h4 class="card__title mt-4">Loops</h4><p class="card__excerpt">Repeat useful work with loops and build on the earlier programs.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="episode-month" aria-labelledby="may-2022">
+          <h3 id="may-2022">May 2022: Essential Python Data Structures</h3>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0zT8CLbkpUk" title="Essential Python Data Structures, episode 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--leaf">Episode 1</span><h4 class="card__title mt-4">Lists <span class="heading-amp">&amp;</span> tuples</h4><p class="card__excerpt">Store and work with ordered collections of values.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/THmB0NiEEzU" title="Essential Python Data Structures, episode 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--leaf">Episode 2</span><h4 class="card__title mt-4">Sets</h4><p class="card__excerpt">Use unordered collections when each value should be unique.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/wcNlsmivdO8" title="Essential Python Data Structures, episode 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--leaf">Episode 3</span><h4 class="card__title mt-4">Dictionaries</h4><p class="card__excerpt">Organise structured information with keys and values.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="episode-month" aria-labelledby="june-2022">
+          <h3 id="june-2022">June 2022: Environmental Data with Matplotlib</h3>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/6sB-nu8QIP8" title="Environmental data with Python and Matplotlib, episode 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--accent">Episode 1</span><h4 class="card__title mt-4">Explore environmental data</h4><p class="card__excerpt">Load a real dataset and begin investigating it with Python.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/jl1RITXWFPI" title="Environmental data with Python and Matplotlib, episode 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--accent">Episode 2</span><h4 class="card__title mt-4">Visualise the data</h4><p class="card__excerpt">Create charts that make patterns in the dataset visible.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/esPysUZ1b2c" title="Environmental data with Python and Matplotlib, episode 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--accent">Episode 3</span><h4 class="card__title mt-4">Communicate what you found</h4><p class="card__excerpt">Refine the visualisations so they communicate clearly and honestly.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="episode-month" aria-labelledby="july-2022">
+          <h3 id="july-2022">July 2022: Front-End Web Development Basics</h3>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/UIIoWeIQfmM" title="Front-End Web Development Basics, episode 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--secondary">Episode 1</span><h4 class="card__title mt-4">HTML basics</h4><p class="card__excerpt">Give a web page meaningful content and structure.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/t7DRBDVSZa8" title="Front-End Web Development Basics, episode 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--secondary">Episode 2</span><h4 class="card__title mt-4">CSS styling</h4><p class="card__excerpt">Control the presentation and layout of the page.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/ySZ3Y9yUytw" title="Front-End Web Development Basics, episode 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--secondary">Episode 3</span><h4 class="card__title mt-4">JavaScript basics</h4><p class="card__excerpt">Add behaviour and interaction to the page.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="episode-month" aria-labelledby="august-2022">
+          <h3 id="august-2022">August 2022: Python Flask <span class="heading-amp">&amp;</span> Azure</h3>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/ub-ueVya5G4" title="Python Flask webserver and Azure, episode 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag">Episode 1</span><h4 class="card__title mt-4">Cultivate a Flask webserver</h4><p class="card__excerpt">Begin a web application with Python and Flask.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/yepF1phJu0w" title="Python Flask webserver and Azure, episode 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag">Episode 2</span><h4 class="card__title mt-4">Grow the Flask application</h4><p class="card__excerpt">Add more useful behaviour to the application.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/ysYqA27AWtg" title="Python Flask webserver and Azure, episode 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag">Episode 3</span><h4 class="card__title mt-4">Deploy with Azure</h4><p class="card__excerpt">Deploy the application so other people can use it.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="episode-month" aria-labelledby="september-2022">
+          <h3 id="september-2022">September 2022: GitHub Pages Portfolio</h3>
+          <div class="grid gap-6 md:grid-cols-2 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/sgb0WLLkjNk" title="GitHub Pages portfolio, episode 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--secondary">Episode 1</span><h4 class="card__title mt-4">Grow a GitHub Pages portfolio</h4><p class="card__excerpt">Set up the repository and publish the first version of a portfolio.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/ZoRB4IyjGU0" title="GitHub Pages portfolio, episode 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--secondary">Episode 2</span><h4 class="card__title mt-4">Develop the portfolio</h4><p class="card__excerpt">Add content and styling that better represents the work.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="episode-month" aria-labelledby="october-2022">
+          <h3 id="october-2022">October 2022: GitHub Profile</h3>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/uxkogAIZkNA" title="Bring your GitHub profile into full bloom" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--secondary">GitHub</span><h4 class="card__title mt-4">Bring your GitHub profile into full bloom</h4><p class="card__excerpt">Create a profile README that gives useful context to your work.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="episode-month" aria-labelledby="november-2022">
+          <h3 id="november-2022">November 2022: Open Code Garden</h3>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/yfxc3dhp4Q8" title="Open Code Garden: practising Python with ciphers" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--leaf">Python</span><h4 class="card__title mt-4">Practising Python with ciphers</h4><p class="card__excerpt">Use encryption and decryption problems to practise Python together.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="episode-month" aria-labelledby="december-2022">
+          <h3 id="december-2022">December 2022: Advent of Code <span class="heading-amp">&amp;</span> Holiday Special</h3>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/xkCR3rkDdi0" title="Advent of Code Garden: problems 1 to 5" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--accent">Advent of Code</span><h4 class="card__title mt-4">Get started: problems 1 to 5</h4><p class="card__excerpt">Approach the first Advent of Code puzzles and compare solution strategies.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/CRxRIniobh8" title="Advent of Code Garden: problems 6 to 8" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--accent">Advent of Code</span><h4 class="card__title mt-4">Get speedy: problems 6 to 8</h4><p class="card__excerpt">Keep solving and consider clearer, faster approaches.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/deZgXlRh1lg" title="Advent of Code Garden: problems 9 to 11" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--accent">Advent of Code</span><h4 class="card__title mt-4">Get fancy: problems 9 to 11</h4><p class="card__excerpt">Work through later puzzles and the data structures behind them.</p></div>
+            </article>
+            <article class="card episode-card">
+              <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/PX4vTZD6jf4" title="Code Garden holiday special: making magic with micro:bits" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="card__body"><span class="tag tag--leaf">Holiday special</span><h4 class="card__title mt-4">Making magic with micro:bits</h4><p class="card__excerpt">Finish the year with a festive physical-computing build.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <div class="text-center mt-12">
+          <a href="https://github.com/reneenoble/code-garden" target="_blank" rel="noopener" class="btn btn--primary btn--lg">View Code on GitHub</a>
+          <a href="https://www.youtube.com/playlist?list=PLmsFUfdnGr3ybQRX1VAYdMLJa2Tv2d7gT" target="_blank" rel="noopener" class="btn btn--outline btn--lg">Open YouTube Playlist</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="/assets/js/partials.js"></script>
+</body>
+</html>

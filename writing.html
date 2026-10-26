@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing | Renee Noble</title>
+  <meta name="description" content="Blog posts, articles, and tutorials by Renee Noble on Python, AI, cloud development, and developer tools.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <p class="page-kicker">Articles & tutorials</p>
+        <h1 class="page-header__title">Writing</h1>
+        <p class="page-header__description">Practical explanations, tutorials and ideas across Python, AI, cloud technology, education and community.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-intro">
+          <h2>Find something useful</h2>
+          <p>Filter by subject rather than publication platform. Each article opens at its original home.</p>
+        </div>
+
+        <div class="filter-bar" id="writing-filters" aria-label="Filter writing by theme">
+          <button type="button" class="filter-btn filter-btn--active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter-btn" data-filter="technical" data-tags="Python,Azure,FastAPI,Deployment,Git,GitHub,GitHub Copilot,GitHub Actions,GitHub Codespaces,VS Code,Developer Tools,Microsoft Learn,Power Platform,CLI,Tutorial,Programming" aria-pressed="false">Technical how-tos</button>
+          <button type="button" class="filter-btn" data-filter="ai-data" data-tags="AI,Data,Data Science,Machine Learning,NLP,Responsible AI,Cosmos DB" aria-pressed="false">AI & data</button>
+          <button type="button" class="filter-btn" data-filter="education" data-tags="Education,Series" aria-pressed="false">Education & learning</button>
+        </div>
+
+        <!-- Writing Grid -->
+        <div class="grid gap-6 md:grid-cols-2" id="writing-grid">
+          <div class="text-center" style="grid-column: 1 / -1; padding: var(--space-8);">
+            <div class="spinner"></div>
+            <p class="text-muted mt-4">Loading articles...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  
+  <script src="/assets/js/partials.js"></script>
+  <script src="/assets/js/render-list.js?v=23"></script>
+  <script>
+    document.addEventListener('partialsLoaded', () => {
+      renderWriting();
+    });
+  </script>
+</body>
+</html>

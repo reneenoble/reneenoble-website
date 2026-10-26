@@ -1,0 +1,334 @@
+[
+  {
+    "title": "Get started with GitHub Copilot CLI: A free, hands-on course",
+    "url": "https://dev.to/azure/get-started-with-github-copilot-cli-a-free-hands-on-course-3beg",
+    "platform": "dev.to",
+    "date": "2026-03-05",
+    "excerpt": "Learn to use GitHub Copilot CLI with this free, hands-on course covering terminal assistance and command generation.",
+    "tags": [
+      "GitHub Copilot",
+      "CLI",
+      "Tutorial"
+    ],
+    "image": "/assets/img/copilot-cli-blog.png",
+    "imageFit": "contain",
+    "relatedLinks": [
+      {
+        "label": "Open course",
+        "url": "https://github.com/github/copilot-cli-for-beginners"
+      }
+    ]
+  },
+  {
+    "title": "What’s in a Name? Fuzzy Matching for Real-World Data",
+    "url": "https://dev.to/azure/whats-in-a-name-fuzzy-matching-for-real-world-data-5b5o",
+    "platform": "dev.to",
+    "date": "2025-10-17",
+    "excerpt": "Techniques for matching names and proper nouns in messy real-world datasets using Python.",
+    "tags": [
+      "Python",
+      "Data",
+      "NLP"
+    ],
+    "image": "/assets/img/blog-fuzzy-name-matching.png?v=2",
+    "imageAlt": "DEV article hero for What’s in a Name? Fuzzy Matching for Real-World Data",
+    "relatedLinks": [
+      {
+        "label": "View talk",
+        "url": "/talks/pycon-au-2025-fuzzy-matching.html"
+      },
+      {
+        "label": "View project",
+        "url": "https://github.com/reneenoble/proper-noun-matching"
+      }
+    ]
+  },
+  {
+    "title": "Build faster with this simple AZD template for FastAPI on Azure App Service",
+    "url": "https://dev.to/azure/build-faster-with-this-simple-azd-template-for-fastapi-on-azure-app-service-4flm",
+    "platform": "dev.to",
+    "date": "2025-05-02",
+    "excerpt": "A streamlined Azure Developer CLI template to get your FastAPI apps deployed quickly.",
+    "tags": [
+      "Azure",
+      "FastAPI",
+      "Python"
+    ],
+    "image": "/assets/img/code-to-cloud.png",
+    "imageFit": "contain"
+  },
+  {
+    "title": "Deploy web apps with help from GitHub Copilot for Azure!",
+    "url": "https://dev.to/azure/deploy-web-apps-with-help-from-github-copilot-for-azure-5ab2",
+    "platform": "dev.to",
+    "date": "2024-11-11",
+    "excerpt": "Using GitHub Copilot for Azure to streamline your web app deployment workflow.",
+    "tags": [
+      "Azure",
+      "GitHub Copilot",
+      "Deployment"
+    ],
+    "image": "/assets/img/clippy-web-app.png",
+    "imageAlt": "Clippy saying, Looks like you are trying to deploy a web app!"
+  },
+  {
+    "title": "Create and deploy a web app with Python and Azure – A video tutorial!",
+    "url": "https://dev.to/reneenoble/create-and-deploy-a-web-app-with-python-and-azure-a-video-tutorial-3mjj",
+    "platform": "dev.to",
+    "date": "2024-06-12",
+    "excerpt": "Step-by-step video guide to building and deploying Python web applications on Azure.",
+    "tags": [
+      "Python",
+      "Azure",
+      "Tutorial"
+    ],
+    "image": "/assets/img/create-and-deploy-webapps-blog.png",
+    "imageAlt": "DEV article hero for Create and deploy a web app with Python and Azure – A video tutorial",
+    "relatedLinks": [
+      {
+        "label": "Watch talk",
+        "url": "https://www.youtube.com/watch?v=V_69Q0ZiPAI"
+      },
+      {
+        "label": "View project",
+        "url": "https://github.com/reneenoble/code-to-cloud"
+      }
+    ]
+  },
+  {
+    "title": "Dabble in Data Science – Our 14 Days of Data Science collection!",
+    "url": "https://techcommunity.microsoft.com/blog/educatordeveloperblog/dabble-in-data-science-%e2%80%93-our-14-days-of-data-science-collection/4095413",
+    "platform": "Microsoft Tech Community",
+    "date": "2024-03-27",
+    "excerpt": "Explore a collection of approachable lessons on data science, AI, machine learning, Python, responsible AI, and the data science lifecycle.",
+    "tags": [
+      "Data Science",
+      "AI",
+      "Machine Learning",
+      "Python",
+      "Education"
+    ],
+    "image": "/assets/img/14days_ds_promo.png",
+    "imageAlt": "Visual overview of the first week of the 14 Days of Data Science series"
+  },
+  {
+    "title": "Responsible AI in Data Science",
+    "url": "https://dev.to/azure/responsible-ai-in-data-science-51lf",
+    "image": "/assets/img/rai_in_ds.png",
+    "imageAlt": "Diagram of responsible AI principles including fairness, reliability, privacy, inclusiveness, transparency and accountability",
+    "platform": "dev.to",
+    "date": "2024-03-09",
+    "excerpt": "Day 2: Understanding and upholding the principles of responsible AI development and deployment in data science.",
+    "tags": [
+      "Data Science",
+      "Responsible AI",
+      "Series"
+    ]
+  },
+  {
+    "title": "Introduction to Machine Learning",
+    "url": "https://dev.to/azure/introduction-to-machine-learning-39a1",
+    "image": "/assets/img/14-days-datascience.png",
+    "imageAlt": "Colourful Data Science illustration with Python and data visualisation symbols",
+    "platform": "dev.to",
+    "date": "2024-03-09",
+    "excerpt": "Day 3: Exploring the basics of machine learning, its types, and real-world applications from healthcare to entertainment.",
+    "tags": [
+      "Data Science",
+      "Machine Learning",
+      "Series"
+    ]
+  },
+  {
+    "title": "Supervised Machine Learning",
+    "url": "https://dev.to/azure/supervised-machine-learning-32p6",
+    "image": "/assets/img/supervised-machine-learning.png",
+    "imageAlt": "Illustrations of three labelled dog breeds used as supervised learning examples",
+    "imageCredit": "dandelion_tea",
+    "imageCreditUrl": "https://pixabay.com/users/dandelion_tea-15261675/",
+    "platform": "dev.to",
+    "date": "2024-03-11",
+    "excerpt": "Day 4: Learning how algorithms train on labelled data to make predictions and classifications.",
+    "tags": [
+      "Data Science",
+      "Machine Learning",
+      "Series"
+    ]
+  },
+  {
+    "title": "Unsupervised Machine Learning",
+    "url": "https://dev.to/azure/unsupervised-machine-learning-5cdj",
+    "image": "/assets/img/unsupervised-machine-learning.png",
+    "imageAlt": "Flower observations grouped into three clusters by petals and leaves",
+    "platform": "dev.to",
+    "date": "2024-03-12",
+    "excerpt": "Day 5: Discovering how algorithms find hidden patterns in data without labelled training data.",
+    "tags": [
+      "Data Science",
+      "Machine Learning",
+      "Series"
+    ]
+  },
+  {
+    "title": "Build an AI Powered Image App – Microsoft Learn Challenge",
+    "url": "https://techcommunity.microsoft.com/blog/educatordeveloperblog/build-an-ai-powered-image-app-%e2%80%93-microsoft-learn-challenge/4004160",
+    "platform": "Microsoft Tech Community",
+    "date": "2023-12-12",
+    "excerpt": "Build a web app that analyses and generates images using Azure OpenAI Service, DALL-E, and Azure AI Vision.",
+    "tags": [
+      "AI",
+      "Azure",
+      "Microsoft Learn",
+      "Tutorial"
+    ],
+    "image": "/assets/img/image-generation-result.png",
+    "imageAlt": "Computer vision web app showing a generated puppy image and its prompt response"
+  },
+  {
+    "title": "Git Yourself a Leg Up - GitHub Tools for Teams and Teaching",
+    "url": "https://techcommunity.microsoft.com/blog/educatordeveloperblog/git-yourself-a-leg-up---github-tools-for-teams-and-teaching/3918034",
+    "platform": "Microsoft Tech Community",
+    "date": "2023-11-18",
+    "excerpt": "Tips for teams and teachers using GitHub, Copilot, templates, GitHub Actions, and Codespaces.",
+    "tags": [
+      "GitHub",
+      "GitHub Copilot",
+      "GitHub Actions",
+      "GitHub Codespaces",
+      "Education"
+    ],
+    "image": "/assets/img/git-students-a-leg-up-blog.png",
+    "imageAlt": "Takeaways explaining how Git can give students a leg up in the classroom",
+    "relatedLinks": [
+      {
+        "label": "View talk",
+        "url": "/talks/pycon-au-2023.html"
+      },
+      {
+        "label": "View project",
+        "url": "https://github.com/reneenoble/project-web-app"
+      }
+    ]
+  },
+  {
+    "title": "Get Started with Git",
+    "url": "https://techcommunity.microsoft.com/blog/educatordeveloperblog/get-started-with-git/3983278",
+    "platform": "Microsoft Tech Community",
+    "date": "2023-11-18",
+    "excerpt": "A beginner-friendly introduction to Git, GitHub, and the commands used to add, commit, and push code.",
+    "tags": [
+      "Git",
+      "GitHub",
+      "Tutorial"
+    ],
+    "image": "/assets/img/get-started-with-git.png",
+    "imageAlt": "Git explained as shopping: code, add, commit, and push"
+  },
+  {
+    "title": "Microsoft represents at Kenya’s PMI Africa Conference – Youth Edition!",
+    "url": "https://techcommunity.microsoft.com/blog/educatordeveloperblog/microsoft-represents-at-kenya%e2%80%99s-pmi-africa-conference-%e2%80%93-youth-edition/3941781",
+    "platform": "Microsoft Tech Community",
+    "date": "2023-10-03",
+    "excerpt": "Highlights from Microsoft’s youth program at PMI Africa, including Power Platform, Imagine Cup, entrepreneurship, and student opportunities.",
+    "tags": [
+      "Power Platform",
+      "Education",
+      "Community",
+      "Students"
+    ],
+    "image": "/assets/img/kenya-blog.png",
+    "imageAlt": "Speakers and attendees at the PMI Africa Conference Youth Edition in Kenya"
+  },
+  {
+    "title": "Championing Change with the Amazing GPN Team by My Side",
+    "url": "https://www.linkedin.com/pulse/championing-change-amazing-gpn-team-my-side-renee-noble-1ti8c/",
+    "platform": "LinkedIn",
+    "date": "2023-11-15",
+    "excerpt": "What the Girls' Programming Network team has built together and how the program approaches change in tech education.",
+    "tags": [
+      "GPN",
+      "Leadership",
+      "Diversity"
+    ],
+    "image": "/assets/img/wlt-group.png",
+    "imageAlt": "Renee Noble celebrating with the Girls' Programming Network team at the Women Leading Tech Awards"
+  },
+  {
+    "title": "Every Concept Counts: Creating appropriately levelled Python projects",
+    "url": "https://medium.com/groklearning/every-concept-counts-creating-appropriately-leveled-python-projects-8bb0bd4a19eb",
+    "platform": "Medium",
+    "date": "2019-10-25",
+    "excerpt": "How to design Python projects that meet learners at their current skill level.",
+    "tags": [
+      "Python",
+      "Education",
+      "Curriculum"
+    ],
+    "image": "/assets/img/every-concept-counts.png",
+    "imageAlt": "Annotated Python Caesar cipher showing the programming concepts used in the project",
+    "imageFit": "contain",
+    "relatedLinks": [
+      {
+        "label": "Watch PyCon AU talk",
+        "url": "https://www.youtube.com/watch?v=M85YHRr5Ngg"
+      },
+      {
+        "label": "Watch Hopper talk",
+        "url": "https://www.youtube.com/watch?v=Vcd31jFjsP4"
+      }
+    ]
+  },
+  {
+    "title": "Scissors-Paper-Rock your classroom with differentiated projects",
+    "url": "https://medium.com/groklearning/scissors-paper-rock-your-classroom-with-differentiated-projects-bf5aa2cd4b36",
+    "platform": "Medium",
+    "date": "2019-04-03",
+    "excerpt": "A framework for creating differentiated programming projects for diverse classrooms.",
+    "tags": [
+      "Python",
+      "Education"
+    ],
+    "image": "/assets/img/spr.png",
+    "imageAlt": "Hand-drawn plan for teaching differentiated Scissors-Paper-Rock programming projects",
+    "imageFit": "contain",
+    "relatedLinks": [
+      {
+        "label": "Watch talk",
+        "url": "https://www.youtube.com/watch?v=4Y3PuTTH5ZQ"
+      }
+    ]
+  },
+  {
+    "title": "Girls' Programming Network: Challenge Accepted",
+    "url": "https://medium.com/groklearning/girls-programming-network-challenge-accepted-3ad12f9f20aa",
+    "platform": "Medium",
+    "date": "2018-09-04",
+    "excerpt": "The story of Girls' Programming Network and its impact on young women in tech.",
+    "tags": [
+      "Education",
+      "Diversity",
+      "Community"
+    ],
+    "image": "/assets/img/gpn-crowd.png",
+    "imageAlt": "Girls' Programming Network participants and volunteers gathered for a group photo",
+    "relatedLinks": [
+      {
+        "label": "Watch talk",
+        "url": "https://www.youtube.com/watch?v=eOZs0kR8NNY"
+      }
+    ]
+  },
+  {
+    "title": "Late to the Coding Party",
+    "url": "https://medium.com/groklearning/late-to-the-coding-party-f9091f066e8c",
+    "platform": "Medium",
+    "date": "2018-05-15",
+    "excerpt": "How I got into programming and why it is never too late to start.",
+    "tags": [
+      "Personal",
+      "Career"
+    ],
+    "image": "/assets/img/renee-gpn-arduino.png",
+    "imageAlt": "Renee Noble demonstrating an Arduino project at a Girls' Programming Network workshop"
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "title": "GitHub Issue Complexity Analyser",
+    "url": "https://github.com/reneenoble/copilot-sdk-github-issue-analyser",
+    "date": "2026-04",
+    "videoUrl": "https://www.youtube.com/watch?v=7VrPUZgMrjY",
+    "description": "An AI-powered issue triage tool that uses the GitHub Copilot SDK to assess issue complexity and recommend an appropriate developer skill level.",
+    "tags": [
+      "GitHub Copilot",
+      "SDK",
+      "Python",
+      "Developer Tools"
+    ],
+    "audience": "Python developers exploring the GitHub Copilot SDK",
+    "skills": [
+      "Copilot SDK",
+      "GitHub API",
+      "Issue triage"
+    ],
+    "prerequisites": "Python 3.10 or later, uv and a GitHub token",
+    "featured": true,
+    "image": "/assets/img/project-copilot-sdk-github-issue-analyser.png",
+    "imageFit": "contain"
+  },
+  {
+    "title": "AI RAG for Education",
+    "url": "https://github.com/reneenoble/ai-rag-for-education",
+    "date": "2024-11",
+    "description": "Azure template for building Retrieval Augmented Generation applications for educational use cases.",
+    "tags": [
+      "AI",
+      "RAG",
+      "Python",
+      "Azure"
+    ],
+    "audience": "Developers and technical educators",
+    "skills": [
+      "RAG application structure",
+      "Python",
+      "Azure deployment"
+    ],
+    "prerequisites": "Comfort with Python and basic Azure concepts",
+    "featured": true,
+    "image": "/assets/img/project-ai-rag-for-education.png",
+    "imageFit": "contain",
+    "relatedLinks": [
+      {
+        "label": "View talk",
+        "url": "/talks/pycon-au-2024.html"
+      }
+    ]
+  },
+  {
+    "title": "Investigate Koala Data",
+    "url": "https://github.com/reneenoble/data-science-bear-necessities",
+    "date": "2024-03",
+    "description": "The Data Science Bear Necessities workshop uses Australian koala population data to explore Python, Pandas and Matplotlib.",
+    "tags": [
+      "Python",
+      "Data Science",
+      "Matplotlib"
+    ],
+    "audience": "Python learners, students and educators",
+    "skills": [
+      "Pandas",
+      "Matplotlib",
+      "Data investigation"
+    ],
+    "prerequisites": "Basic Python is helpful but not required",
+    "featured": false,
+    "videoUrl": "https://www.youtube.com/watch?v=NCdzng61fI8",
+    "image": "/assets/img/project-data-science-bear-necessities.png",
+    "imageFit": "contain"
+  },
+  {
+    "title": "Proper Noun Matching",
+    "url": "https://github.com/reneenoble/proper-noun-matching",
+    "date": "2025-06",
+    "description": "Techniques for fuzzy matching names and proper nouns in real-world data.",
+    "tags": [
+      "Python",
+      "Data",
+      "NLP"
+    ],
+    "audience": "Python developers and data practitioners",
+    "skills": [
+      "Fuzzy matching",
+      "Data cleaning",
+      "Text processing"
+    ],
+    "prerequisites": "Basic Python and experience working with tabular data",
+    "featured": false,
+    "videoUrl": "https://www.youtube.com/watch?v=-AQBJTt1qR4",
+    "image": "/assets/img/proper-noun-matching.png",
+    "imageFit": "contain",
+    "relatedLinks": [
+      {
+        "label": "View talk",
+        "url": "/talks/pycon-au-2025-fuzzy-matching.html"
+      },
+      {
+        "label": "Read article",
+        "url": "https://dev.to/azure/whats-in-a-name-fuzzy-matching-for-real-world-data-5b5o"
+      }
+    ]
+  },
+  {
+    "title": "Who_Dunnit.xlsx",
+    "url": "https://github.com/reneenoble/python-mystery-solver",
+    "date": "2025-09",
+    "videoUrl": "https://www.youtube.com/watch?v=qaGbwXJXf8E",
+    "description": "A murder mystery built in a spreadsheet for teaching Python through data investigation.",
+    "tags": [
+      "Python in Excel",
+      "Data",
+      "Education"
+    ],
+    "audience": "Learners, students and educators",
+    "skills": [
+      "Python in Excel",
+      "Data investigation",
+      "Problem solving"
+    ],
+    "prerequisites": "Access to Python in Excel; prior Python experience is helpful but not required",
+    "featured": false,
+    "image": "/assets/img/project-python-mystery-solver.png",
+    "imageFit": "contain",
+    "relatedLinks": [
+      {
+        "label": "View talk",
+        "url": "/talks/pycon-au-2025-who-dunnit.html"
+      }
+    ]
+  },
+  {
+    "title": "Git for Student Projects",
+    "url": "https://github.com/reneenoble/project-web-app",
+    "date": "2023-08",
+    "description": "The Project Web App Flask template and Git workflow from the PyCon AU talk on strengthening student projects.",
+    "tags": [
+      "Python",
+      "Flask",
+      "Template"
+    ],
+    "audience": "Students and beginner web developers",
+    "skills": [
+      "Flask",
+      "Git and GitHub",
+      "Web project structure"
+    ],
+    "prerequisites": "Basic Python",
+    "featured": false,
+    "videoUrl": "https://www.youtube.com/watch?v=WCPmCskuKrg",
+    "image": "/assets/img/project-web-app.png",
+    "imageFit": "contain",
+    "relatedLinks": [
+      {
+        "label": "View talk",
+        "url": "/talks/pycon-au-2023.html"
+      },
+      {
+        "label": "Read article",
+        "url": "https://techcommunity.microsoft.com/blog/educatordeveloperblog/git-yourself-a-leg-up---github-tools-for-teams-and-teaching/3918034"
+      }
+    ]
+  },
+  {
+    "title": "In the Code Garden",
+    "url": "https://github.com/reneenoble/code-garden",
+    "date": "2022-12",
+    "description": "Code samples and practical builds from the Python learning series In the Code Garden.",
+    "tags": [
+      "Python",
+      "Education",
+      "Video Series"
+    ],
+    "audience": "Python learners, students and educators",
+    "skills": [
+      "Python fundamentals",
+      "Data structures",
+      "Practical projects"
+    ],
+    "prerequisites": "No prior Python experience required",
+    "featured": false,
+    "inCollection": false,
+    "image": "/assets/img/project-code-garden.png",
+    "imageFit": "contain"
+  }
+]

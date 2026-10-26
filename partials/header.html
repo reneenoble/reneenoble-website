@@ -1,0 +1,101 @@
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="site-logo" aria-label="Renee Noble, home">RENEE <span>NOBLE</span></a>
+    
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <div class="site-nav__dropdown">
+        <button class="site-nav__link site-nav__dropdown-toggle" type="button" aria-expanded="false" aria-controls="content-resources">
+          Content and Resources
+          <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m4 6 4 4 4-4"></path></svg>
+        </button>
+        <div class="site-nav__submenu" id="content-resources" hidden>
+          <a href="/collection.html" class="site-nav__link">All Content</a>
+          <a href="/learning.html" class="site-nav__link">Learning</a>
+          <a href="/education.html" class="site-nav__link">For Educators</a>
+          <a href="/talks.html" class="site-nav__link">Speaking</a>
+          <a href="/projects.html" class="site-nav__link">Projects</a>
+        </div>
+      </div>
+      <a href="/about.html" class="site-nav__link">About</a>
+      <a href="/recognition.html" class="site-nav__link">Awards and Media</a>
+      <a href="/contact.html" class="site-nav__link">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M4 7h16M4 12h16M4 17h16"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<script>
+  const navToggle = document.querySelector('.nav-toggle');
+  const siteNav = document.getElementById('site-nav');
+  const contentDropdown = document.querySelector('.site-nav__dropdown');
+  const contentToggle = document.querySelector('.site-nav__dropdown-toggle');
+  const contentSubmenu = document.getElementById('content-resources');
+
+  function closeContentDropdown() {
+    contentToggle.setAttribute('aria-expanded', 'false');
+    contentSubmenu.hidden = true;
+  }
+
+  function closeNavigation() {
+    closeContentDropdown();
+    siteNav.classList.remove('site-nav--open');
+    navToggle.setAttribute('aria-expanded', 'false');
+    navToggle.setAttribute('aria-label', 'Open menu');
+  }
+
+  navToggle.addEventListener('click', function() {
+    const expanded = this.getAttribute('aria-expanded') === 'true';
+    if (expanded) {
+      closeNavigation();
+      return;
+    }
+    this.setAttribute('aria-expanded', String(!expanded));
+    this.setAttribute('aria-label', expanded ? 'Open menu' : 'Close menu');
+    siteNav.classList.add('site-nav--open');
+  });
+
+  contentToggle.addEventListener('click', function() {
+    const expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', String(!expanded));
+    contentSubmenu.hidden = expanded;
+  });
+
+  document.addEventListener('click', event => {
+    if (!contentDropdown.contains(event.target)) closeContentDropdown();
+  });
+
+  siteNav.addEventListener('click', event => {
+    if (event.target.closest('a')) closeNavigation();
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    if (!contentSubmenu.hidden) {
+      closeContentDropdown();
+      contentToggle.focus();
+    } else if (siteNav.classList.contains('site-nav--open')) {
+      closeNavigation();
+      navToggle.focus();
+    }
+  });
+
+  const currentPath = window.location.pathname;
+  document.querySelectorAll('a.site-nav__link').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href === currentPath ||
+        (href.endsWith('.html') && currentPath.startsWith(href.replace('.html', '/')))) {
+      link.classList.add('site-nav__link--active');
+      link.setAttribute('aria-current', 'page');
+      if (contentSubmenu.contains(link)) {
+        contentToggle.classList.add('site-nav__link--active');
+      }
+    }
+  });
+</script>

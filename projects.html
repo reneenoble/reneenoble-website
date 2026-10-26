@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects & Code | Renee Noble</title>
+  <meta name="description" content="Technical projects by Renee Noble across Python, AI, data, Azure, developer tools and hands-on education.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/assets/css/style.css?v=9">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <p class="page-kicker">Python · AI · Data · Cloud</p>
+        <h1 class="page-header__title">Projects <span class="heading-amp">&amp;</span> Code</h1>
+        <p class="page-header__description">Open-source code, sample applications and technical learning projects built to solve, explain or investigate something real.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="resource-section-heading">
+          <div>
+            <h2>Projects, templates and practical builds</h2>
+          </div>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" id="projects-grid">
+          <div class="text-center" style="grid-column: 1 / -1; padding: var(--space-8);">
+            <div class="spinner"></div>
+            <p class="text-muted mt-4">Loading projects...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-surface">
+      <div class="container">
+        <div class="resource-section-heading">
+          <div>
+            <p class="page-kicker">Follow the work</p>
+            <h2>Code, explanation and context</h2>
+          </div>
+          <p>A repository can show how something works. A talk or article can explain why it was built, the trade-offs involved and what somebody else can do with it.</p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-3">
+          <article class="card">
+            <div class="card__body">
+              <h3 class="card__title">GitHub</h3>
+              <p class="card__excerpt">Browse source code, templates, workshop projects and experiments.</p>
+              <a href="https://github.com/reneenoble" target="_blank" rel="noopener" class="btn btn--primary mt-4">View GitHub ↗</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__body">
+              <h3 class="card__title">Technical writing</h3>
+              <p class="card__excerpt">Read practical explanations of Python, AI, Azure, data and developer tooling.</p>
+              <a href="/writing.html" class="btn btn--outline mt-4">Browse writing</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__body">
+              <h3 class="card__title">Technical talks</h3>
+              <p class="card__excerpt">Watch projects unpacked through live demos, investigation and lessons learnt.</p>
+              <a href="/talks.html" class="btn btn--outline mt-4">Browse talks</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  
+  <script src="/assets/js/partials.js"></script>
+  <script src="/assets/js/render-list.js?v=8"></script>
+  <script>
+    document.addEventListener('partialsLoaded', () => {
+      renderProjects();
+    });
+  </script>
+</body>
+</html>

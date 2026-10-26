@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Renee Noble</title>
+  <meta name="description" content="Get in touch with Renee Noble for speaking engagements, collaborations, or questions.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">Get in Touch</h1>
+        <p class="page-header__description">Tell me what you are working on, who it is for, and what a useful next step would look like.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid gap-12 grid-cols-1 md:grid-cols-2">
+          <!-- Contact Form -->
+          <div>
+            <h2>Send a Message</h2>
+            <form id="contact-form" class="mt-6" action="https://formspree.io/f/xbgdzqgn" method="POST">
+              <div class="form-group">
+                <label for="name" class="form-label">Name *</label>
+                <input type="text" id="name" name="name" class="form-input" maxlength="100" autocomplete="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="form-label">Email *</label>
+                <input type="email" id="email" name="email" class="form-input" maxlength="254" autocomplete="email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject *</label>
+                <select id="subject" name="subject" class="form-select" required>
+                  <option value="" selected disabled>Choose a subject</option>
+                  <option value="speaking">Speaking and Workshops</option>
+                  <option value="collaboration">Project or Community Collaboration</option>
+                  <option value="education">Education or Learning Resource Question</option>
+                  <option value="resource">Resource Use or Professional Enquiry</option>
+                  <option value="general">General Enquiry</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div id="subject-fields" aria-live="polite">
+                <fieldset class="form-subject-fields" data-subject-fields="speaking" hidden disabled>
+                  <legend>Speaking and workshop details</legend>
+                  <div class="form-group">
+                    <label for="speaking-audience" class="form-label">Who is the audience? *</label>
+                    <input type="text" id="speaking-audience" name="audience" class="form-input" maxlength="200" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="speaking-format" class="form-label">What format do you have in mind? *</label>
+                    <select id="speaking-format" name="format" class="form-select" required>
+                      <option value="" selected disabled>Choose a format</option>
+                      <option value="Keynote or conference talk">Keynote or conference talk</option>
+                      <option value="Panel or fireside chat">Panel or fireside chat</option>
+                      <option value="Workshop or training">Workshop or training</option>
+                      <option value="Podcast or interview">Podcast or interview</option>
+                      <option value="Other format">Other format</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="speaking-topic" class="form-label">What topic would you like covered? *</label>
+                    <input type="text" id="speaking-topic" name="topic" class="form-input" maxlength="200" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="speaking-outcome" class="form-label">What should people understand, try, or do afterwards? *</label>
+                    <textarea id="speaking-outcome" name="desiredOutcome" class="form-textarea form-textarea--compact" maxlength="1000" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="speaking-date" class="form-label">Event date, if known</label>
+                    <input type="date" id="speaking-date" name="eventDate" class="form-input">
+                  </div>
+                  <div class="form-group">
+                    <label for="speaking-location" class="form-label">Location or online platform</label>
+                    <input type="text" id="speaking-location" name="location" class="form-input" maxlength="200">
+                  </div>
+                </fieldset>
+
+                <fieldset class="form-subject-fields" data-subject-fields="collaboration" hidden disabled>
+                  <legend>Collaboration details</legend>
+                  <div class="form-group">
+                    <label for="collaboration-organisation" class="form-label">Organisation or community</label>
+                    <input type="text" id="collaboration-organisation" name="organisation" class="form-input" maxlength="200">
+                  </div>
+                  <div class="form-group">
+                    <label for="collaboration-project" class="form-label">What are you working on? *</label>
+                    <input type="text" id="collaboration-project" name="project" class="form-input" maxlength="200" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="collaboration-role" class="form-label">How would you like me to be involved? *</label>
+                    <input type="text" id="collaboration-role" name="proposedRole" class="form-input" maxlength="300" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="collaboration-timeline" class="form-label">What is the timeline?</label>
+                    <input type="text" id="collaboration-timeline" name="timeline" class="form-input" maxlength="200">
+                  </div>
+                </fieldset>
+
+                <fieldset class="form-subject-fields" data-subject-fields="education" hidden disabled>
+                  <legend>Education and learning details</legend>
+                  <p class="form-subject-fields__intro">For educators and learners looking for an existing resource, reference, or useful education contact.</p>
+                  <div class="form-group">
+                    <label for="education-role" class="form-label">Which best describes you? *</label>
+                    <select id="education-role" name="role" class="form-select" required>
+                      <option value="" selected disabled>Choose an option</option>
+                      <option value="Educator">Educator</option>
+                      <option value="Learner">Learner</option>
+                      <option value="Parent or carer">Parent or carer</option>
+                      <option value="Education or community organisation">Education or community organisation</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="education-topic" class="form-label">What topic or resource are you looking for? *</label>
+                    <input type="text" id="education-topic" name="topicOrResource" class="form-input" maxlength="300" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="education-audience" class="form-label">Learner age, year level, or experience level, if relevant</label>
+                    <input type="text" id="education-audience" name="learnerContext" class="form-input" maxlength="200">
+                  </div>
+                </fieldset>
+
+                <fieldset class="form-subject-fields" data-subject-fields="resource" hidden disabled>
+                  <legend>Resource and professional enquiry details</legend>
+                  <p class="form-subject-fields__intro">For requests involving existing work, permissions, partnerships, corrections, or professional opportunities.</p>
+                  <div class="form-group">
+                    <label for="resource-name" class="form-label">Which course, resource, or event is this about? *</label>
+                    <input type="text" id="resource-name" name="resource" class="form-input" maxlength="300" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="resource-enquiry-type" class="form-label">What kind of enquiry is this? *</label>
+                    <select id="resource-enquiry-type" name="enquiryType" class="form-select" required>
+                      <option value="" selected disabled>Choose an enquiry type</option>
+                      <option value="Permission to reuse or adapt material">Permission to reuse or adapt material</option>
+                      <option value="Partnership or sponsorship">Partnership or sponsorship</option>
+                      <option value="Correction or accessibility issue">Correction or accessibility issue</option>
+                      <option value="Media, interview, or professional enquiry">Media, interview, or professional enquiry</option>
+                      <option value="Other resource-related enquiry">Other resource-related enquiry</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="resource-organisation" class="form-label">Organisation, publication, or community, if applicable</label>
+                    <input type="text" id="resource-organisation" name="organisation" class="form-input" maxlength="200">
+                  </div>
+                </fieldset>
+              </div>
+              
+              <div class="form-group">
+                <label for="message" class="form-label">Message *</label>
+                <textarea id="message" name="message" class="form-textarea" maxlength="5000" required></textarea>
+              </div>
+              
+              <!-- Honeypot field - hidden from users, catches bots -->
+              <div class="form-honeypot" aria-hidden="true">
+                <label for="_gotcha">Website URL (leave blank)</label>
+                <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+              </div>
+              
+              <button type="submit" class="btn btn--primary btn--lg" id="submit-btn">Send Message</button>
+              
+              <div id="form-status" class="mt-4" style="display: none;"></div>
+            </form>
+          </div>
+          
+          <!-- Contact Info -->
+          <div>
+            <h2>Other Ways to Connect</h2>
+
+            <div class="card mt-6">
+              <div class="card__body">
+                <h3>Find Me Online</h3>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                  <li style="margin-bottom: var(--space-3);">
+                    <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/noblerenee" target="_blank" rel="noopener">linkedin.com/in/noblerenee</a>
+                  </li>
+                  <li style="margin-bottom: var(--space-3);">
+                    <strong>GitHub:</strong> <a href="https://github.com/reneenoble" target="_blank" rel="noopener">github.com/reneenoble</a>
+                  </li>
+                  <li style="margin-bottom: var(--space-3);">
+                    <strong>DEV.to:</strong> <a href="https://dev.to/reneenoble" target="_blank" rel="noopener">dev.to/reneenoble</a>
+                  </li>
+                  <li style="margin-bottom: var(--space-3);">
+                    <strong>YouTube:</strong> <a href="https://www.youtube.com/@RENEELNOBLE" target="_blank" rel="noopener">youtube.com/@RENEELNOBLE</a>
+                  </li>
+                  <li>
+                    <strong>Bluesky:</strong> <a href="https://bsky.app/profile/reneenoble.com" target="_blank" rel="noopener">@reneenoble.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="card mt-6">
+              <div class="card__body">
+                <h3>Looking for a resource?</h3>
+                <p>Browse <a href="/learning.html">courses and guided projects</a>, or see the <a href="/education.html">resources for educators</a>. If you are looking for material from a particular event, include the event name and topic in your message.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  
+  <script src="/assets/js/partials.js"></script>
+  <script src="/assets/js/contact.js"></script>
+</body>
+</html>

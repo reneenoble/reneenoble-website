@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Copilot CLI for Beginners",
+    "url": "https://github.com/github/copilot-cli-for-beginners",
+    "date": "2026-02",
+    "meta": "GitHub",
+    "description": "A free, hands-on course for GitHub Copilot CLI covering code review, testing, debugging, and terminal workflows.",
+    "tags": [
+      "GitHub Copilot",
+      "CLI",
+      "Developer Tools"
+    ],
+    "blogUrl": "https://dev.to/azure/get-started-with-github-copilot-cli-a-free-hands-on-course-3beg",
+    "image": "/assets/img/copilot-cli-course.png",
+    "imageFit": "contain-dark"
+  },
+  {
+    "title": "Copilot SDK for Beginners",
+    "url": "https://github.com/reneenoble/github-copilot-sdk-for-beginners",
+    "date": "2026-02",
+    "meta": "Self-paced course",
+    "description": "Learn to build your own applications on top of the GitHub Copilot SDK, from first prompt through to a working tool.",
+    "tags": [
+      "GitHub Copilot",
+      "SDK",
+      "Python"
+    ],
+    "image": "/assets/img/copilot-sdk-for-beginners.png",
+    "imageFit": "contain-dark"
+  }
+]
